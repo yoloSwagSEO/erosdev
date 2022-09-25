@@ -27,7 +27,7 @@ class LeadController extends Controller
         $ld->epilation = $request->input('epilation');
         $ld->tatouage = $request->input('tatouage');
         $ld->piercing = $request->input('piercing');
-        $ld->origine = $request->input('firstname');
+        $ld->origine = $request->input('origine');
         $ld->presentation = $request->input('presentation')??"";
         $ld->visage = $request->input('visage');
         $ld->save();
