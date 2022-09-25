@@ -101,7 +101,7 @@ class LeadResource extends Resource
                         Forms\Components\Repeater::make("links")
                             ->relationship()
                             ->schema([
-                                Forms\Components\TextInput::make('path')
+                                Forms\Components\TextInput::make('link')
                             ]),
                 ])->columnSpan(['lg' => 2]),
             ]);
